@@ -31,9 +31,7 @@ body {
 .second {
     display: flex;
     justify-content: center;
-    box-sizing: border-box;
-
-
+   
 }
 
 .div3 {
