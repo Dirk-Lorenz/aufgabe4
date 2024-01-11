@@ -1,30 +1,39 @@
 body {
     background-color: rgb(233, 232, 228);
     margin: 0;
+ 
 }
 
-.div1 {
+.first {
+
     display: flex;
     height: 70px;
-    color: rgb(245, 243, 239);
     background-color: rgb(41, 40, 40);
+    justify-content:end;
+    
+}
+a {color: rgb(245, 243, 239);
+    text-decoration: none;
+    font-size: large;
+    letter-spacing: 2px; 
 
 }
 
-.div2 {
-    position: relative;
+nav {
     display: flex;
-    left: 1200px;
     align-items: center;
-    gap: 55px;
+    margin-right: 50px;
+    gap: 60px;
     
 }
 
-.icons {
-    margin-left: 45px;
 
-
+.icons img {
+    padding-right: 4px; 
+    
 }
+
+
 
 /* zweiter Abschnitt */
 
@@ -34,7 +43,7 @@ body {
    
 }
 
-.div3 {
+.ext {
     flex: 1;
     height: 480px;
     border-right: solid 1px lightgray;
@@ -42,21 +51,21 @@ body {
     margin: 50px 0px 50px 0px;
 }
 
-.div4 {
+.int {
     flex: 1;
     border-right: solid 1px lightgray;
     padding-top: 300px;
     margin: 50px 0px 50px 0px;
 }
 
-.div5 {
+.fur {
     flex: 1;
     border-right: solid 1px lightgray;
     padding-top: 300px;
     margin: 50px 0px 50px 0px;
 }
 
-.div6 {
+.mod {
     flex: 1;
     padding-top: 300px;
     margin: 50px 0px 00px 0px;
