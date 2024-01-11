@@ -71,13 +71,11 @@ nav {
     margin: 50px 0px 00px 0px;
 }
 
-.number {
-    color: red;
-    text-align: center;
-}
 
 p {
     font-family: sans-serif;
+    color: red;
+    text-align: center;
 }
 
 h1 {
