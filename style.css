@@ -17,11 +17,11 @@ body {
     left: 1200px;
     align-items: center;
     gap: 55px;
-    margin: 0;
+    
 }
 
 .icons {
-    margin-left: 40px;
+    margin-left: 45px;
 
 
 }
@@ -30,7 +30,7 @@ body {
 
 .second {
     display: flex;
-    justify-content: center;
+
    
 }
 
