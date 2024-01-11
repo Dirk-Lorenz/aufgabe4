@@ -1,7 +1,7 @@
 body {
     background-color: rgb(233, 232, 228);
     margin: 0;
- 
+
 }
 
 .first {
@@ -9,13 +9,15 @@ body {
     display: flex;
     height: 70px;
     background-color: rgb(41, 40, 40);
-    justify-content:end;
-    
+    justify-content: end;
+
 }
-a {color: rgb(245, 243, 239);
+
+a {
+    color: rgb(245, 243, 239);
     text-decoration: none;
     font-size: large;
-    letter-spacing: 2px; 
+    letter-spacing: 2px;
 
 }
 
@@ -24,13 +26,13 @@ nav {
     align-items: center;
     margin-right: 50px;
     gap: 60px;
-    
+
 }
 
 
 .icons img {
-    padding-right: 4px; 
-    
+    padding-right: 4px;
+
 }
 
 
@@ -40,7 +42,7 @@ nav {
 .second {
     display: flex;
 
-   
+
 }
 
 .ext {
@@ -78,8 +80,14 @@ p {
     text-align: center;
 }
 
-h1 {
-    font-family: sans-serif;
-    text-align: center;
-    
+
+.name {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: black;
 }
